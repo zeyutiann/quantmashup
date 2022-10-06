@@ -284,7 +284,7 @@ html_theme_options = {
     'github_button': True,
     'github_user': 'zeyutiann',
     'github_repo': 'quantmashup',
-    'logo': 'logo/bjj.jpeg'
+    'logo': 'logo/bjj-bw.jpeg'
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
