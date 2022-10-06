@@ -1,0 +1,27 @@
+
+.. quantmashup index file, created by `ablog start` on Fri Oct  7 01:19:18 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to my quant mashup !
+=======================================
+
+
+Here is a list of most recent posts:
+
+.. postlist:: 10
+   :excerpts:
+
+
+.. `toctree` directive, below, contains list of non-post `.rst` files.
+   This is how they appear in Navigation sidebar. Note that directive
+   also contains `:hidden:` option so that it is not included inside the page.
+
+   Posts are excluded from this directive so that they aren't double listed
+   in the sidebar both under Navigation and Recent Posts.
+
+.. toctree::
+   :hidden:
+
+   ./blog/about.rst
+
