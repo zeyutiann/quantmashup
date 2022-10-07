@@ -194,7 +194,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'myst_parser',
     'alabaster',
-    'ablog'
+    'ablog',
+    'bokeh.sphinxext.bokeh_plot' ,
+    'jupyter_sphinx' ,
 ]
 myst_update_mathjax = False
 # Add any paths that contain templates here, relative to this directory.
@@ -203,8 +205,8 @@ templates_path = ["_templates", ablog.get_html_templates_path()]
 # The suffix(es) of source filenames.
 source_suffix = {
 '.rst': 'restructuredtext',
-# '.txt': 'markdown',
-# '.md': 'markdown',
+'.txt': 'markdown',
+'.md': 'markdown',
 }
 # The encoding of source files.
 # source_encoding = 'utf-8-sig'
